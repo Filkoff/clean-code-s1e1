@@ -4,7 +4,7 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.main-container {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,7 +13,7 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more-inf {
+.aaa .more-info {
   font-family: fantasy, cursive;
 }
 
