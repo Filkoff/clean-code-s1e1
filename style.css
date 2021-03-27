@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.main-container {
+.matrix-about {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.main-container img {
+.matrix-about img {
   width: 100%;
 }
-.main-container .more-info {
+.matrix-about .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.main-container { text-align: center;
+.matrix-about { text-align: center;
 }
 }
-.centered-element {
+.main-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
