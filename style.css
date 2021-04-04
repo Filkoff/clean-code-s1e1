@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.matrix-about .more-info {
+.matrix-about__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.adding__wrapper {
   display: flex;
 }
 
@@ -111,7 +111,7 @@ h3 {
   width: 318px;
 }
 
-.main-container__adding > .button:hover {
+.adding > .button:hover {
   color: #0fc57c;
 }
 
@@ -144,17 +144,17 @@ h3 {
   width: 226px;
 }
 
-.list-item > .button.delete:hover {
+.list-item > .list-item__delete:hover {
   color: #cf2323;
 }
 
-.button.delete .delete-img {
+.list-item__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button.delete .delete-img:hover {
+.list-item__delete-img:hover {
   transform: rotateZ(0);
 }
 
